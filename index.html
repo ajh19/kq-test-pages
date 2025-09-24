@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Keyquorum Test Pages</title>
+<style>
+  :root{--fg:#0f172a;--bg:#f8fafc;--card:#ffffff;--muted:#64748b;--accent:#3b82f6;}
+  body{background:var(--bg); color:var(--fg); font:16px/1.44 system-ui, -apple-system, Segoe UI, Roboto, Arial; margin:0; padding:24px;}
+  h1{margin:0 0 16px 0;}
+  .note{color:var(--muted); margin-bottom:24px;}
+  .card{background:var(--card); border:1px solid #e5e7eb; border-radius:12px; padding:16px 18px; margin:16px 0; box-shadow:0 2px 8px rgba(0,0,0,.04); max-width:900px;}
+  fieldset{border:0; margin:0; padding:0;}
+  legend{font-weight:600; margin-bottom:10px;}
+  label{display:block; font-size:14px; color:var(--muted); margin-top:10px;}
+  input, select{width:100%; padding:10px 12px; border-radius:8px; border:1px solid #d1d5db; margin-top:6px; font-size:16px;}
+  .row{display:grid; grid-template-columns:1fr 1fr; gap:12px;}
+  .row3{display:grid; grid-template-columns:1fr 1fr 1fr; gap:12px;}
+  a.btn, button{display:inline-block; padding:10px 14px; border-radius:10px; border:1px solid #93c5fd; background:#3b82f6; color:#fff; cursor:pointer; text-decoration:none}
+  nav a{margin-right:8px}
+</style>
+</head>
+<body>
+<nav>
+  <a href="index.html" class="btn">Home</a>
+  <a href="login.html" class="btn">Login</a>
+  <a href="card.html" class="btn">Card</a>
+  <a href="profile.html" class="btn">Profile</a>
+</nav>
+<h1>Keyquorum Test Pages</h1>
+<div class="note">Host on HTTPS (e.g., https://yourdomain/kq-test/). All fields use official autocomplete attributes.</div>
+<div class="card">
+
+<p>Pick a page to test:</p>
+<ul>
+  <li><a href="login.html">Login</a></li>
+  <li><a href="card.html">Payment card</a></li>
+  <li><a href="profile.html">Profile / Address</a></li>
+</ul>
+
+</div>
+</body>
+</html>
