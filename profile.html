@@ -28,11 +28,25 @@
   <a href="profile.html" class="btn">Profile</a>
 </nav>
 <h1>Profile / Address</h1>
-<div class="note">Uses given-name, family-name, email, tel, address-line1/2, address-level2 (city), address-level1 (state/region), postal-code, country.</div>
+<div class="note">Includes <code>honorific-prefix</code> (Title) + given-name, family-name, email, tel, address-line1/2, address-level2 (city), address-level1 (state/region), postal-code, country.</div>
 <div class="card">
 
 <fieldset>
   <legend>Profile</legend>
+
+  <label>Title
+    <select autocomplete="honorific-prefix">
+      <option value="">--</option>
+      <option>Mr</option>
+      <option>Mrs</option>
+      <option>Miss</option>
+      <option>Ms</option>
+      <option>Mx</option>
+      <option>Dr</option>
+      <option>Prof</option>
+    </select>
+  </label>
+
   <div class="row">
     <label>First name
       <input type="text" autocomplete="given-name" value="Alice">
